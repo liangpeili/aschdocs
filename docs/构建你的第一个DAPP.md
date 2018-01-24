@@ -86,9 +86,13 @@ New genesis block is created at: ./genesis.json
 说明：
 
 DApp link: 为了方便用户自动安装，链接必须以 .zip 结尾。 这个链接不要求一定存在， 如果未打算开源可以输入无效地址。
+
 DApp icon url: 该选项表示应用的 logo ， 用于在阿希的应用中心展示， 要求以 .jpg 或 .png 结尾。 如果该链接失效，则应用中心会展示一个默认图标。
+
 How many delegates are needed to unlock asset of a dapp： 这个选项表示从dapp跨链转账资产时需要多少个受托人联合签名，该数字必须大于等于3、小于等于你配置的受托人公钥个数且小于等于101，数字越大越安全，但效率和费用越高。
+
 Enter master secret of your genesis account： 这里是创世账户，如果发行内置资产那最初的资产都在这个账户里。
+
 Do you want publish a inbuilt asset in this dapp： dapp 可以创建内置资产，但该内置资产只能在 dapp 内部使用，无法转回到 Asch 主链。 一般建议在主链发行 UIA(用户自定义资产)， 然后将资产充值到 dapp中， 充分享受 Asch 侧链架构的优势。
 
 ## 四、在主链注册 DApp
